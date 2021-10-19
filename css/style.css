@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+#container{
+    text-align: center;
+}
+
+.logo{
+    margin-top: 10px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+h3{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.caixa{
+    height: 45px;
+    width: 80%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 16px;
+    font-size: 20px;
+}
+
+.button{
+    width: 80%;
+    margin: 30px auto;
+    color: #fff;
+    background-color: #007bff;
+    outline: none;
+    border:none;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.button:hover{
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062;
+}
